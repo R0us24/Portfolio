@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create vite@latest souk-portfolio -- --template react)",
+      "Bash(npm install)",
+      "Bash(npm install -D tailwindcss @tailwindcss/vite)",
+      "Bash(npm install framer-motion)",
+      "Bash(npx vite build)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(netstat -ano)",
+      "Bash(findstr :5173)",
+      "Bash(findstr LISTENING)",
+      "Bash(taskkill //F //PID 58640)",
+      "Bash(node node_modules/vite/bin/vite.js build)",
+      "Bash(taskkill //F //PID 76828)",
+      "Bash(taskkill //F //PID 50928)",
+      "Bash(npm install p5)",
+      "Bash(npm uninstall p5)",
+      "Bash(npm install three)",
+      "Bash(npm uninstall three)",
+      "Bash(find C:/Users/roust/Desktop/portfolio/souk-portfolio/ -name tea* -o -name tapis* -o -name moon* -o -name atay* -o -name travel* -o -name chameau* -o -name diplome*)",
+      "Bash(cp \"C:/Users/roust/Desktop/RoustomcvFr.pdf\" \"C:/Users/roust/Desktop/portfolio/souk-portfolio/public/RoustomcvFr.pdf\")",
+      "Bash(cp \"C:/Users/roust/Desktop/RoustomCV.pdf\" \"C:/Users/roust/Desktop/portfolio/souk-portfolio/public/RoustomCV.pdf\")",
+      "Bash(find C:/Users/roust/Desktop/portfolio/souk-portfolio/public -type f -name *.png -o -name *.jpg -o -name *.jpeg -o -name *.webp)",
+      "Bash(sed 's/.*src=//g')",
+      "Bash(npm install:*)"
+    ]
+  }
+}
