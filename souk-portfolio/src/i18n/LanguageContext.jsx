@@ -7,7 +7,7 @@ const translations = { fr, en };
 const LanguageContext = createContext();
 
 export function LanguageProvider({ children }) {
-  const [lang, setLang] = useState('fr');
+  const [lang, setLang] = useState('en');
 
   const toggleLang = useCallback(() => {
     setLang((prev) => (prev === 'fr' ? 'en' : 'fr'));

@@ -50,7 +50,7 @@ export const fr = {
     "404 : Motivation non trouvee. Essayez apres un cafe.",
     "Je code mieux a 3h du matin, ne me demandez pas pourquoi.",
     "Un bug ? Non, c'est une feature secrete.",
-    "Le debuggage, c'est comme etre detective dans un film ou tu es aussi le criminel.",
+    "☝( ◠‿◠ ).🏳️",
     "git push --force et on verra demain.",
     "Il etait une fois un developpeur qui a fini son projet a temps... c'etait une fiction.",
     "Mon code compile du premier coup ? Il y a surement un piege.",
@@ -153,7 +153,7 @@ export const fr = {
   profile: {
     name: 'Roustom Abdeldjalel Cherir',
     title: 'Etudiant en informatique',
-    bio: "Etudiant en informatique a l'Universite de Montreal, passionne par le developpement web moderne, l'intelligence artificielle et la cybersecurite. J'aime transformer des idees complexes en solutions elegantes et accessibles.",
+    bio: "Etudiant en informatique a l'Universite de Montreal. Programmeur (IA, Dev Web & Simulations) a l'EduQlasse Interactive Lab – Faculte des sciences de l'education. Passionne par l'IA, le developpement web et la cybersecurite.",
     location: 'Montreal, QC',
   },
 
@@ -176,10 +176,16 @@ export const fr = {
   // Experience
   experience: [
     {
+      role: "EduQlasse Interactive Lab – Faculte des sciences de l'education, UdeM",
+      company: 'Programmeur – IA, Developpement Web & Simulations',
+      period: 'Mars 2026 – Present',
+      description: "Developpement de Calculus Buddy, plateforme IA d'apprentissage du calcul differentiel pour etudiants CEGEP/universite. Integration de tutorat intelligent et simulations mathematiques interactives.",
+    },
+    {
       role: "Club d'intelligence artificielle de l'UdeM",
       company: 'Membre actif',
-      period: 'Janvier 2025 - Present',
-      description: "Membre actif du club d'IA de l'Universite de Montreal.",
+      period: 'Janvier 2025 – Present',
+      description: "Membre actif du club d'IA et de cybersecurite de l'Universite de Montreal.",
     },
   ],
 
@@ -187,17 +193,28 @@ export const fr = {
   projects: [
     {
       id: 1,
-      title: 'Analyseur intelligent de documents (PDF)',
+      title: 'IA Sante Mentale des Jeunes (Hackathon Mila)',
       description:
-        "Outil capable d'analyser des documents PDF et d'en extraire automatiquement des informations cles. Integration d'un modele de langage (LLM) pour generer des resumes structures. Interface Streamlit pour une analyse instantanee.",
-      tech: ['Python', 'LLM', 'Streamlit'],
+        "Systeme de detection de risque bilingue (EN/FR) pour Kids Help Phone. Architecture RoBERTa + juge LLM Cohere, F1 de 88% sur 2 500+ exemples annotes couvrant 23 categories de risque avec couverture DEI.",
+      tech: ['Python', 'RoBERTa', 'Cohere', 'HuggingFace', 'PyTorch', 'AWS S3'],
       github: null,
       demo: null,
-      color: '#2E86C1',
-      period: '2026',
+      color: '#9B59B6',
+      period: 'Mars 2026',
     },
     {
       id: 2,
+      title: 'PharmaBridge (Hackathon Claude — Anthropic)',
+      description:
+        "Application web full-stack aidant les immigrants europeens a trouver des equivalents canadiens de leurs medicaments via Claude AI. Recherche bidirectionnelle, couverture RAMQ, alertes de securite, interface bilingue FR/EN.",
+      tech: ['Next.js', 'TypeScript', 'Prisma', 'TailwindCSS', 'Anthropic SDK'],
+      github: null,
+      demo: 'https://devpost.com/software/pharmbridge',
+      color: '#E67E22',
+      period: '2026',
+    },
+    {
+      id: 3,
       title: "Agent IA d'automatisation des courriels",
       description:
         "Agent capable de resumer automatiquement des courriels, detecter l'intention et proposer une reponse adaptee. Automatisation du tri et de l'etiquetage des messages via n8n.",
@@ -208,14 +225,14 @@ export const fr = {
       period: '2026',
     },
     {
-      id: 3,
+      id: 4,
       title: 'Site web de location de voitures AMC Location',
       description:
         "Conception d'un site web reactif de location de voitures avec pages de prix, vehicules et reservation. Implementation d'un calendrier de reservation, du calcul des prix et d'un stockage base sur JSON.",
       tech: ['Next.js 14', 'TypeScript', 'Tailwind CSS'],
       github: null,
       demo: null,
-      color: '#E67E22',
+      color: '#2E86C1',
       period: '2026',
     },
   ],
@@ -244,8 +261,25 @@ export const fr = {
       type: 'Competition universitaire',
       categories: ['Developpement de jeux', 'Programmation', 'Design interactif'],
       description:
-        "1ere place remportee lors d'un evenement intensif de 48h consistant a concevoir un jeu educatif pour les eleves qui ont de la difficulte en francais innovant en equipe multidisciplinaire.",
+        "1ere place remportee lors d'un evenement intensif de 48h consistant a concevoir un jeu educatif pour les eleves qui ont de la difficulte en francais, en equipe multidisciplinaire.",
       hasImage: true,
+    },
+    {
+      name: 'Hackathon Claude (Anthropic) — PharmaBridge',
+      date: '2026',
+      type: 'Hackathon IA',
+      categories: ['Full-Stack', 'IA', 'Sante'],
+      description:
+        "Developpe PharmaBridge : outil d'equivalence medicamenteuse Europe→Canada alimente par Claude AI. Recherche bidirectionnelle EU/CA, couverture RAMQ, alertes de securite, interface bilingue FR/EN. Stack : Next.js · TypeScript · Prisma · Anthropic SDK.",
+      link: 'https://devpost.com/software/pharmbridge',
+    },
+    {
+      name: 'Hackathon Securite IA – Sante Mentale des Jeunes (Mila)',
+      date: 'Mars 2026',
+      type: 'Competition IA',
+      categories: ['NLP', 'Securite IA', 'Red-Teaming'],
+      description:
+        "Systeme de detection de risque bilingue (EN/FR) pour Kids Help Phone. Architecture RoBERTa + juge LLM Cohere, F1 de 88% sur 2 500+ exemples annotes couvrant 23 categories. Stack : Python · RoBERTa · HuggingFace · Cohere · PyTorch · GPU A40.",
     },
   ],
 

@@ -19,6 +19,7 @@ const fadeUp = {
 
 const galleryItems = [
   { id: 1, label: 'Wake Up', image: '/images/Wake up.png', description: 'Illustration originale' },
+  { id: 2, label: 'Be Like They Where', image: '/images/beliketheywhere.png', description: 'Illustration originale' },
 ];
 
 function Lightbox({ item, onClose, closeText }) {

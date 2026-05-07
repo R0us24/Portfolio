@@ -64,6 +64,8 @@ export default function LoadingScreen({ onComplete }) {
   const handleClick = useCallback(() => {
     if (phase === 'press-start') {
       setPhase('title');
+      const audio = new Audio('/sounds/sound5.wav');
+      audio.play().catch(() => {});
       // After title animation, fade out
       setTimeout(() => {
         setFadeOut(true);

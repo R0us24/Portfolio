@@ -32,8 +32,14 @@ export default function CVShop() {
       ];
 
   const experience = lang === 'fr'
-    ? [{ role: "Club d'intelligence artificielle de l'UdeM", company: 'Membre actif', period: 'Janvier 2025 - Present', description: "Membre actif du club d'IA de l'Universite de Montreal." }]
-    : [{ role: 'UdeM Artificial Intelligence Club', company: 'Active Member', period: 'January 2025 - Present', description: 'Active member of the AI club at Universite de Montreal.' }];
+    ? [
+        { role: "EduQlasse Interactive Lab – Faculte des sciences de l'education, UdeM", company: 'Programmeur – IA, Dev Web & Simulations', period: 'Mars 2026 – Present', description: "Developpement de Calculus Buddy, plateforme IA d'apprentissage du calcul differentiel. Integration de tutorat intelligent et simulations mathematiques interactives." },
+        { role: "Club d'intelligence artificielle de l'UdeM", company: 'Membre actif', period: 'Janvier 2025 – Present', description: "Membre actif du club d'IA et de cybersecurite de l'Universite de Montreal." },
+      ]
+    : [
+        { role: 'EduQlasse Interactive Lab – Faculty of Education, UdeM', company: 'Programmer – AI, Web Dev & Simulations', period: 'March 2026 – Present', description: 'Developing Calculus Buddy, an AI-powered learning platform for CEGEP/university students. Integrating intelligent tutoring and interactive math simulations.' },
+        { role: 'UdeM Artificial Intelligence Club and Cybersecurity', company: 'Active Member', period: 'January 2025 – Present', description: 'Active member of the AI and Cybersecurity club at Universite de Montreal.' },
+      ];
 
   return (
     <motion.div variants={containerVariants} initial="hidden" animate="visible" style={{

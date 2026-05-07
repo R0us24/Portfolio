@@ -50,7 +50,7 @@ export const en = {
     "404: Motivation not found. Try again after coffee.",
     "I code better at 3 AM, don't ask me why.",
     "A bug? No, it's a secret feature.",
-    "Debugging is like being a detective in a movie where you're also the criminal.",
+    "☝( ◠‿◠ ).🏳️",
     "git push --force and we'll see tomorrow.",
     "Once upon a time a dev finished their project on time... that was fiction.",
     "My code compiles on the first try? There must be a trap.",
@@ -153,7 +153,7 @@ export const en = {
   profile: {
     name: 'Roustom Abdeldjalel Cherir',
     title: 'Computer Science Student',
-    bio: "Computer Science student at Universite de Montreal, passionate about modern web development, artificial intelligence, and cybersecurity. I love transforming complex ideas into elegant and accessible solutions.",
+    bio: "Computer Science student at Universite de Montreal. Programmer (AI, Web Dev & Simulations) at EduQlasse Interactive Lab – Faculty of Education. Passionate about AI, web development and cybersecurity.",
     location: 'Montreal, QC',
   },
 
@@ -176,10 +176,16 @@ export const en = {
   // Experience
   experience: [
     {
-      role: 'UdeM Artificial Intelligence Club',
+      role: 'EduQlasse Interactive Lab – Faculty of Education, UdeM',
+      company: 'Programmer – AI, Web Development & Simulations',
+      period: 'March 2026 – Present',
+      description: 'Developing Calculus Buddy, an AI-powered learning platform for CEGEP/university students with real-time targeted feedback and adaptive question banks. Integrating intelligent tutoring components and interactive math simulations.',
+    },
+    {
+      role: 'UdeM Artificial Intelligence Club and Cybersecurity',
       company: 'Active Member',
-      period: 'January 2025 - Present',
-      description: "Active member of the AI club at Universite de Montreal.",
+      period: 'January 2025 – Present',
+      description: 'Active member of the AI and Cybersecurity club at Universite de Montreal.',
     },
   ],
 
@@ -187,17 +193,28 @@ export const en = {
   projects: [
     {
       id: 1,
-      title: 'Intelligent Document Analyzer (PDF)',
+      title: 'Youth Mental Health AI System (Mila Hackathon)',
       description:
-        'Built a tool to extract key information and summaries from PDF documents using LLMs. Implemented text extraction and chunking with a Streamlit interface for instant analysis.',
-      tech: ['Python', 'LLM', 'Streamlit'],
+        'Bilingual (EN/FR) risk detection system for Kids Help Phone. Stacked RoBERTa + Cohere LLM judge achieving F1 88%. Red-teamed chatbot, generated 2,500+ annotated examples across 23 risk categories with DEI coverage.',
+      tech: ['Python', 'RoBERTa', 'Cohere', 'HuggingFace', 'PyTorch', 'AWS S3'],
       github: null,
       demo: null,
-      color: '#2E86C1',
-      period: '2026',
+      color: '#9B59B6',
+      period: 'March 2026',
     },
     {
       id: 2,
+      title: 'PharmaBridge (Claude Hackathon — Anthropic)',
+      description:
+        'Full-stack web app helping European immigrants find Canadian medication equivalents via Claude AI. Bidirectional search, RAMQ coverage, safety alerts, pharmacy locator, bilingual FR/EN interface.',
+      tech: ['Next.js', 'TypeScript', 'Prisma', 'TailwindCSS', 'Anthropic SDK'],
+      github: null,
+      demo: 'https://devpost.com/software/pharmbridge',
+      color: '#E67E22',
+      period: '2026',
+    },
+    {
+      id: 3,
       title: 'AI Email Automation Agent',
       description:
         'Developed an AI agent to summarize emails, detect intent, and suggest replies. Automated message classification and workflow actions using n8n.',
@@ -208,14 +225,14 @@ export const en = {
       period: '2026',
     },
     {
-      id: 3,
+      id: 4,
       title: 'AMC Location Car Rental Website',
       description:
         'Designed a responsive car rental website with pricing, vehicle, and booking pages. Implemented reservation calendar, price calculation, and JSON-based booking storage.',
       tech: ['Next.js 14', 'TypeScript', 'Tailwind CSS'],
       github: null,
       demo: null,
-      color: '#E67E22',
+      color: '#2E86C1',
       period: '2026',
     },
   ],
@@ -246,6 +263,23 @@ export const en = {
       description:
         '1st place won during an intense 48-hour event designing an educational game for students struggling with French, in an innovative multidisciplinary team.',
       hasImage: true,
+    },
+    {
+      name: 'Claude Hackathon (Anthropic) — PharmaBridge',
+      date: '2026',
+      type: 'AI Hackathon',
+      categories: ['Full-Stack', 'AI', 'Healthcare'],
+      description:
+        'Built PharmaBridge: web app helping European immigrants find Canadian medication equivalents via Claude AI. Bidirectional EU/CA search, RAMQ coverage, safety alerts, bilingual FR/EN. Stack: Next.js · TypeScript · Prisma · Anthropic SDK.',
+      link: 'https://devpost.com/software/pharmbridge',
+    },
+    {
+      name: 'Youth Mental Health Safety Hackathon (Mila)',
+      date: 'March 2026',
+      type: 'AI Safety Competition',
+      categories: ['NLP', 'AI Safety', 'Red-Teaming'],
+      description:
+        'Bilingual (EN/FR) risk detection system for Kids Help Phone. Stacked RoBERTa + Cohere LLM judge, F1 88% on 2,500+ annotated examples across 23 risk categories. Stack: Python · RoBERTa · HuggingFace · Cohere · PyTorch · GPU A40.',
     },
   ],
 

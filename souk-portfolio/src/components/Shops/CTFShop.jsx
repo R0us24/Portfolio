@@ -107,6 +107,15 @@ const CATEGORY_COLORS = {
   'Programming': '#2ECC71',
   'Interactive Design': '#9B59B6',
   'Cryptography': '#9B59B6',
+  'NLP': '#3498DB',
+  'AI Safety': '#E74C3C',
+  'Red-Teaming': '#F39C12',
+  'Full-Stack': '#2ECC71',
+  'AI': '#9B59B6',
+  'Healthcare': '#1ABC9C',
+  'Sante': '#1ABC9C',
+  'Securite IA': '#E74C3C',
+  'IA': '#9B59B6',
 };
 
 /* Diploma lightbox */
@@ -353,6 +362,40 @@ function CTFCard({ entry, index, t }) {
           >
             {t('ctfShop.viewDiploma')}
           </button>
+        )}
+
+        {/* External project link */}
+        {entry.link && (
+          <a
+            href={entry.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-block',
+              marginTop: '12px',
+              fontFamily: '"Press Start 2P", monospace',
+              fontSize: '0.45rem',
+              color: '#1ABC9C',
+              backgroundColor: 'rgba(26, 188, 156, 0.1)',
+              border: '2px solid #1ABC9C',
+              padding: '6px 14px',
+              cursor: 'pointer',
+              lineHeight: 1.6,
+              textDecoration: 'none',
+              transition: 'background-color 0.2s ease, box-shadow 0.2s ease',
+              boxShadow: '2px 2px 0 rgba(0,0,0,0.3)',
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.backgroundColor = 'rgba(26, 188, 156, 0.25)';
+              e.currentTarget.style.boxShadow = '2px 2px 0 rgba(0,0,0,0.3), 0 0 10px rgba(26, 188, 156, 0.3)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.backgroundColor = 'rgba(26, 188, 156, 0.1)';
+              e.currentTarget.style.boxShadow = '2px 2px 0 rgba(0,0,0,0.3)';
+            }}
+          >
+            {'[ '}&#10148;{' Devpost ]'}
+          </a>
         )}
 
         {/* Bottom glow */}
