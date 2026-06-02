@@ -23,7 +23,7 @@ L'idée est de présenter mon parcours de façon originale et immersive : un per
 
 ## Assets & Ressources
 
-Tous les visuels, sprites, illustrations et assets graphiques (personnage, boutiques, décorations, icônes, animations) ont été **créés manuellement par moi-même avec Adobe Photoshop**. Aucun asset graphique extérieur n'a été utilisé.
+Tous les visuels, sprites, illustrations et assets graphiques (personnage, boutiques, décorations, icônes, animations) ont été **créés manuellement par moi-même avec Adobe Photoshop** avec l'aide de Nano Banana pour certaines images comme les magasins, personnages ect... 
 
 ## Développement assisté par IA
 
