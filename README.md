@@ -1,4 +1,4 @@
-# Portfolio — Roustom Abdeldjalel Cherir
+# Portfolio Roustom Abdeldjalel Cherir
 
 Portfolio interactif au thème d'un **souk oriental pixel art**, développé en React + Vite. L'interface simule une scène de souk animée où chaque boutique représente une section du portfolio (projets, compétences, CV, galerie, liens, contact).
 
@@ -40,7 +40,7 @@ npm run dev
 ## Auteur
 
 **Roustom Abdeldjalel Cherir**  
-Étudiant en informatique — Université de Montréal  
+Étudiant en informatique à l'Université de Montréal  
 [LinkedIn](https://www.linkedin.com/in/roustom-abdeldjalel-cherir-819170356/) · [GitHub](https://github.com/R0us24) · roustom235@gmail.com
 ```
 
